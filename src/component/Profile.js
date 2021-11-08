@@ -107,6 +107,7 @@ const Profile = (props) => {
   const setPopup = useContext(SetPopupContext);
 
   const [open, setOpen] = useState(false);
+  console.log(open);
 
   const [profileDetails, setProfileDetails] = useState({
     name: "",
