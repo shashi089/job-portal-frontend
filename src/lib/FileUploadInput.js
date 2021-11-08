@@ -64,6 +64,7 @@ const FileUploadInput = (props) => {
             {props.icon}
             <input
               type="file"
+              name="file"
               style={{ display: "none" }}
               onChange={(event) => {
                 console.log(event.target.files);

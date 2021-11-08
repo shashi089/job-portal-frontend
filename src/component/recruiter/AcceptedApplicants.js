@@ -368,16 +368,6 @@ const ApplicationTile = (props) => {
     setOpenEndJob(false);
   };
 
-  const colorSet = {
-    applied: "#3454D1",
-    shortlisted: "#DC851F",
-    accepted: "#09BC8A",
-    rejected: "#D1345B",
-    deleted: "#B49A67",
-    cancelled: "#FF8484",
-    finished: "#4EA5D9",
-  };
-
   const getResume = () => {
     if (
       application.jobApplicant.resume &&
