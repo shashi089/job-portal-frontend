@@ -44,9 +44,7 @@ const FileUploadInput = (props) => {
           open: true,
           severity: "error",
           message: err.response.statusText,
-          //   message: err.response.data
-          //     ? err.response.data.message
-          //     : err.response.statusText,
+          
         });
       });
   };
@@ -71,11 +69,7 @@ const FileUploadInput = (props) => {
                 setUploadPercentage(0);
                 setFile(event.target.files[0]);
               }}
-              // onChange={onChange}
-              // onChange={
-              //   (e) => {}
-              //   //   setSource({ ...source, place_img: e.target.files[0] })
-              // }
+             
             />
           </Button>
         </Grid>

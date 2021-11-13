@@ -29,10 +29,10 @@ const useStyles = makeStyles((theme) => ({
     padding: "60px 60px",
   },
   inputBox: {
-    width: "500px",
+    width: "380px",
   },
   submitButton: {
-    width: "400px",
+    width: "330px",
   },
 }));
 
@@ -409,13 +409,6 @@ const Login = (props) => {
                 className={styles.inputBox}
                 label="Resume (.pdf)"
                 icon={<DescriptionIcon />}
-                // value={files.resume}
-                // onChange={(event) =>
-                //   setFiles({
-                //     ...files,
-                //     resume: event.target.files[0],
-                //   })
-                // }
                 uploadTo={apiList.uploadResume}
                 handleInput={handleInput}
                 identifier={"resume"}
@@ -426,13 +419,6 @@ const Login = (props) => {
                 className={styles.inputBox}
                 label="Profile Photo (.jpg/.png)"
                 icon={<FaceIcon />}
-                // value={files.profileImage}
-                // onChange={(event) =>
-                //   setFiles({
-                //     ...files,
-                //     profileImage: event.target.files[0],
-                //   })
-                // }
                 uploadTo={apiList.uploadProfileImage}
                 handleInput={handleInput}
                 identifier={"profile"}
