@@ -29,10 +29,10 @@ const useStyles = makeStyles((theme) => ({
     padding: "60px 60px",
   },
   inputBox: {
-    width: "380px",
+    width: "350px",
   },
   submitButton: {
-    width: "330px",
+    width: "310px",
   },
 }));
 
